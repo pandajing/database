@@ -42,3 +42,4 @@ SELECT 20 ,sin(20) FROM dual;
 SELECT ename,job FROM emp WHERE ename LIKE '%K%';
 SELECT ename,job FROM emp WHERE ename LIKE '%K%';
 SELECT ename,sal FROM emp ORDER BY sal DESC ;
+SELECT empno,sal,job,dname FROM dept,emp WHERE dept.deptno=emp.deptno;
